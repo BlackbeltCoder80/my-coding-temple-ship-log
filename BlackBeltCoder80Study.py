@@ -90,4 +90,9 @@ print(L_T_Jr)
 print(l_t_3)
 print(l_a_t_4)
 print(G)
+# These are all example of conventions for naming variables.
+# Question = Identify a list of reversed keywords that cant be used as variable names.
+# Answer = some example are on line 79 above.
+
+# Dynamic Typing:
 
