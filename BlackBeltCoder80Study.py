@@ -73,26 +73,26 @@ print(Lavon)
 # 42, 43, 44, 45 = List str
 
 # C. Variable Naming Conventions
-# Research the rules and conventions for naming varibles.
+# Question = Research the rules and conventions for naming varibles.
 # Answer= Variable naming conventions are  basically guidlines.
 # These guidlines are used to help developers better name variables. That hint at its purpose within the code.
 # some names are reserved and cannot be used as variables. Examples are: (e.g., for, if, class, def, etc).
-# Also some python is case sensitive. So Leroy is different form leroy. Sp programers are encourgaged to use.
+# Also some python is case sensitive. So Leroy is different form leroy. SW programers are encourgaged to use.
 # Case Stles for Variables (Snake Case, and Camel Case,). 
 # Example.
-L_T = "Leroy Tillman Sr"
-L_T_Jr = "Leroy Tillman II"
-l_t_3 = "Leroy Tillman III"
-l_a_t_4 = "Leroy Tillman IV"
-G = "These are four generations"
-print(L_T)
-print(L_T_Jr)
-print(l_t_3)
-print(l_a_t_4)
-print(G)
+First_Generation = "Leroy Tillman I"
+Second_Generation = "Leroy Tillan II"
+Third_Generation = "Leroy Tillman III"
+Fourth_Generation = "Leroy Alexander Tillman IV" 
+Generation = "These are four Generations of The House of Lions over 100 ye of tradition"
+print(First_Generation)
+print(Second_Generation)
+print(Third_Generation)
+print(Fourth_Generation)
+print(Generation)
 # These are all example of conventions for naming variables.
 # Question = Identify a list of reversed keywords that cant be used as variable names.
 # Answer = some example are on line 79 above.
 
 # Dynamic Typing:
-
+#Question =
