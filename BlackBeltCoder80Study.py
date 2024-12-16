@@ -234,4 +234,25 @@ print(my_Var1, my_Var2, my_Var3)
 #while = 5
 #print(while) #SyntaxError
 
+#Exercise 1
+full_name = "Leroy Tillman" # snake_case used for variable
+print(full_name)
 
+#Exercise 2
+
+myName = "Leroy"
+myname = "Tillman"
+
+print(myName)
+print(myname)
+# Just realized Ive done these exercises.
+# Study Covered
+#Variables
+#Naming conventions
+#Data Types
+#Multiple values assignment
+#Dynamic typing
+#V.I.P
+#Constants
+
+#Updated 12/16/2024
