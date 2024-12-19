@@ -256,3 +256,80 @@ print(myname)
 #Constants
 
 #Updated 12/16/2024
+
+
+# 12-18-2014
+# Topic #4 Mastering The Art of Pythonn Operators: Your Toolbelt for Coding
+# What are arithmetic operators (+, -, *, /, %, **, //)
+
+# Exercise 1: The Baker's Dilemma
+
+# If one cake requires 250 grams of flour and you have 2.5 Kilograms of flour, how many cakes can you make using the arithmetic operators?
+
+flour_per_cake = 250
+total_flour = 2.5 * 1001
+number_of_cakes = total_flour // flour_per_cake
+print(number_of_cakes)
+
+# Exercise 2: Claiming Territories
+
+# Use the assigment operator to claim a variable kingdom with a value of "Pythonland"
+
+kingdom = "Pythonland"
+print(kingdom)
+
+# Exercise 3: Fashion Contest
+# Given two shirts with prices shirt1 = 45 and shirt2 = 50. Use comparison operator to check if shirt1 is cheaper than shirt2
+
+shirt1 = 45
+shirt2 = 50
+result = shirt1 < shirt2
+print(result)
+
+#Exercise 5: Royal
+
+result = 3 + 5 * 2 -8
+print(result)
+
+# Exercise 6: The Pastry Fraction
+#You have 10 pastries and you want to divide them equally among 3 friends. How many pastries does each friend get and how many are left?
+pastries = 10
+friends = 3
+pastries_each = pastries // friends
+left_over = pastries % friends
+print(pastries_each, left_over)
+
+#Exercise 7: Kingdom Expansion
+
+#You already have kingdom name Pythonland . Use the assigment operator to add "is wonderful!" to it.
+kingdom = "Pythonland"
+kingdom += " is wonderful!" #kingdom = "Pythonland is wonderful
+print(kingdom)
+
+#Exercise 8: Royal Duel
+# Two Knights have strong values of knight1 =45 knight2 = 50. Use a comparison operator to determine if knight1 has the same strength as knight2.
+knight1 = 45
+knight2 = 50
+# if 45 = 50
+result = knight1 == knight2
+print(result)
+
+
+#Exercise 9: Chef's Special
+#A chef has two ingredients: eggs = True and flour = False. He can only make pancakes if he has both. Determine if the chef can make pancakes
+
+eggs = True
+flour = False
+make_pancakes = eggs and flour
+print(make_pancakes)
+
+#Exercise 10: Medieval Architecture
+# A castle's height is 100 units and it's moats width is 50 units. If you double the castles height and halve the moats width, what would  be the new dimesions?
+castles_height = 100
+moats_width = 50
+castles_height *= 2 # castle_height = 100 * 2
+moats_width /= 2 # moat_width = 25
+print(castles_height, moats_width)
+
+
+
