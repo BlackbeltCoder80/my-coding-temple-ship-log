@@ -328,7 +328,7 @@ print(make_pancakes)
 castles_height = 100
 moats_width = 50
 castles_height *= 2 # castle_height = 100 * 2
-moats_width /= 2 # moat_width = 25
+moats_width /= 2 # moat_width = 25v
 print(castles_height, moats_width)
 
 
