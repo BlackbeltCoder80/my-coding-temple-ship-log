@@ -11,3 +11,18 @@ if torch_lit == True:
     silver_coins = 50
     if gold_coins > 5 and silver_coins > 30:
         print("Enough to buy the magic potion!")
+    else:
+        print("You do not have enough")
+
+    income = 4000
+    expenses = 4500
+    savings = income - expenses
+    if savings > 1000:
+            print("Great job! You saved a lot this month!")
+    elif savings <= 0:
+         print ("Looks like you've spent all or more than you earned!")
+    else:
+         print("Every little bit counsts! Keep saving.")
+
+jet = "fast"
+print("jet")
