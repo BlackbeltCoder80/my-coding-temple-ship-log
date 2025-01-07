@@ -44,3 +44,12 @@ elif has_quest:
      print("This characther has a questf for you")
 else:
      print("Just a regualr villager passign by.")
+
+wants_veggie =False
+likes_spice =True
+if wants_veggie and likes_spice:
+     print ("How about a spicy veggie wrap?")
+elif wants_veggie:
+     print("Try our classic veggie burger!")
+else:
+     print("Check out grill menu!")
