@@ -26,3 +26,21 @@ if torch_lit == True:
 
 jet = "fast"
 print("jet")
+
+is_sunny = False
+have_money = True
+
+if is_sunny and not have_money:
+     print("Great day for a walk in the park!")
+else:
+     print("print consdier indoor activities or saving for a sunny outing.")
+
+is_friendly = False
+has_quest = True
+
+if not is_friendly:
+     print(" Be cautious! This chracther might not be helpful")
+elif has_quest:
+     print("This characther has a questf for you")
+else:
+     print("Just a regualr villager passign by.")
